@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>L. III, D. 6, Quaestio 1</title>
+        <author ref="#BartolomeoMastri">Bartolomeo Mastri</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>L. III, D. 6, Quaestio 1</title>
+          <date when="2017-10-03">October 03, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V1719c" n="Venice1719c">Venice 1719</witness> <!-- https://books.google.com/books?id=spVC-US14p0C&pg=PA274#v=onepage&q&f=false -->
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-03" who="#JW" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+    <body>
+      <div xml:id="bmdt-l3d6q1">
+        <head>L. III, D. 6, Quaestio 1 [Venice 1719c Transcription]</head>
+        <head type="question-title">Quid sit fides et quodnam eius obiectum tam materiale quam formale</head>
+        <p>
+          <lb ed="#V1719c"/>Post tractatum de Incarnatione Dominica ad 
+          <lb ed="#V1719c"/>finem tertii Libri sententiarum cum <name>Magistro</name> 
+          <lb ed="#V1719c"/>agunt Sententiarii de Virtutibus Tehologicis, 
+          <lb ed="#V1719c"/>et Moralibus, et primo de Theologicis, tan<lb ed="#V1719c"/>quam 
+          de effectis in nos ex merito Christi col<lb ed="#V1719c"/>latis, 
+          Fide, Spe, et Charitate, quae dicuntur 
+          <lb ed="#V1719c"/>Virtutes Theologicae; quia immediate versan<lb ed="#V1719c"/>tur 
+          circa Deum, et sunt per se infusae quare nomen Virtutis 
+          <lb ed="#V1719c"/>Theologicae hic sumitur, ut significat supremas virtutes Chri<lb ed="#V1719c"/>stianas, 
+          quibus homo ad supernaturalem beatitudinem dirigitur 
+          <lb ed="#V1719c"/>et per se infunduntur a Deo, et inotescunt ex revelatione divina 
+          <lb ed="#V1719c"/>et doctrina Scripturae unde virtus theologica dici potest, non 
+          <lb ed="#V1719c"/>solum eo quod est circa Deum, tanquam obiectum supernatu<lb ed="#V1719c"/>rale
+        </p>
+        
+
+      </div>
+    </body>
+  </text>
+</TEI>
